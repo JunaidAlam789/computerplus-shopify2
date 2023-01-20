@@ -3,7 +3,7 @@
   padding-right: var(--size-gutter-raw);
   padding-top: var(--space-lg);
   padding-bottom: var(--space-3xl);
-  max-width: 76ch;
+  max-width: 100ch;
 }
 
 .intro {
@@ -11,6 +11,7 @@
   line-height: var(--dense);
   font-size: var(--text-display);
   color: var(--text-color-secondary);
+  text-align: center;
 }
 
 .callOut {
