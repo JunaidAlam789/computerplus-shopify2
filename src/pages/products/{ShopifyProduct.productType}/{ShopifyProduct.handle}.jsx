@@ -151,7 +151,7 @@ export default function Product({ data: { product, suggestions } }) {
             <h1 className={header}>{title}</h1>
             <p className={productDescription}>{description}</p>
             <h2 className={priceValue}>
-              <span>{price}</span>
+              <span className={hidden}>{price}</span>
             </h2>
             <fieldset className={optionsWrapper}>
               {hasVariants &&
