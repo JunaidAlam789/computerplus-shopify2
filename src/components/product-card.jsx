@@ -70,7 +70,7 @@ export function ProductCard({ product, eager }) {
         <h2 as="h2" className={productHeadingStyle}>
           {title}
         </h2>
-        <div className={productPrice}>{price}</div>
+        <div className={productPrice}>Get Quote</div>
       </div>
     </Link>
   )
